@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContaBancaria/ContaBancaria.iml" filepath="$PROJECT_DIR$/ContaBancaria/ContaBancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulamento/Encapsulamento.iml" filepath="$PROJECT_DIR$/Encapsulamento/Encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PainelJogoDeBasquete/PainelJogoDeBasquete.iml" filepath="$PROJECT_DIR$/PainelJogoDeBasquete/PainelJogoDeBasquete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Paradigma de Programacao.iml" filepath="$PROJECT_DIR$/.idea/Paradigma de Programacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SistemaDeArCondicionado/SistemaDeArCondicionado.iml" filepath="$PROJECT_DIR$/SistemaDeArCondicionado/SistemaDeArCondicionado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SistemaDeDrone/SistemaDeDrone.iml" filepath="$PROJECT_DIR$/SistemaDeDrone/SistemaDeDrone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SistemaDeStreaming/SistemaDeStreaming.iml" filepath="$PROJECT_DIR$/SistemaDeStreaming/SistemaDeStreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SistemaGestaoAcademica/SistemaGestaoAcademica.iml" filepath="$PROJECT_DIR$/SistemaGestaoAcademica/SistemaGestaoAcademica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TodoParte/TodoParte.iml" filepath="$PROJECT_DIR$/TodoParte/TodoParte.iml" />
+    </modules>
+  </component>
+</project>
