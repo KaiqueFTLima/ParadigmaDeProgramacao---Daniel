@@ -14,6 +14,7 @@ public class Placar {
         this.periodoQuarto = 1;
     }
 
+    // Metodo para registrar pontos (com validação de time e tipo)
     public void registrarPonto(String time, int tipo) {
 
         if (periodoQuarto > 4) {
@@ -26,10 +27,10 @@ public class Placar {
             return;
         }
 
-        if (time.equals("casa")) {
+        if (time.equalsIgnoreCase("casa")) {
             pontosCasa += tipo;
         }
-        else if (time.equals("visitante")) {
+        else if (time.equalsIgnoreCase("visitante")) {
             pontosVisitante += tipo;
         }
         else {
@@ -37,6 +38,7 @@ public class Placar {
         }
     }
 
+    // Metodo para avançar o tempo de jogo
     public void proximoQuarto() {
 
         if (periodoQuarto < 4) {

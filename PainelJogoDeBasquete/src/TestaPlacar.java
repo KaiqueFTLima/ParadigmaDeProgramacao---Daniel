@@ -14,6 +14,7 @@ public class TestaPlacar {
         jogo.proximoQuarto();
         jogo.proximoQuarto();
         jogo.proximoQuarto();
+        jogo.proximoQuarto();
 
         System.out.println(jogo);
     }

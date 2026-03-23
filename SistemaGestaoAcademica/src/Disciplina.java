@@ -6,11 +6,21 @@ public class Disciplina {
     private ArrayList<Aluno> alunos;
     private ArrayList<Avaliacao> avaliacoes;
 
+    public Disciplina(int id, String nome, String professor) {
+        this.id = id;
+        this.nome = nome;
+        this.professor = professor;
+        this.alunos = new ArrayList<>();
+        this.avaliacoes = new ArrayList<>();
+    }
+
+    // Agregação
     public void matricularAluno(Aluno a){
         this.alunos.add(a);
         System.out.println("Aluno matriculado com sucesso.");
     }
 
+    // Composição: cria a avaliação dentro da disciplina
     public void criarAvaliacao(int id, String nome){
         Avaliacao aux = new Avaliacao(id, nome);
         this.avaliacoes.add(aux);
@@ -18,14 +28,6 @@ public class Disciplina {
     }
 
     public Disciplina() {
-        this.alunos = new ArrayList<>();
-        this.avaliacoes = new ArrayList<>();
-    }
-
-    public Disciplina(int id, String nome, String professor) {
-        this.id = id;
-        this.nome = nome;
-        this.professor = professor;
         this.alunos = new ArrayList<>();
         this.avaliacoes = new ArrayList<>();
     }

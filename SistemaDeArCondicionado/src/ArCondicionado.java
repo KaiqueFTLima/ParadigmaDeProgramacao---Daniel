@@ -9,9 +9,9 @@ public class ArCondicionado {
 
     public ArCondicionado(String marca, String modelo, int temperatura, boolean ligado) {
         this.setMarca(marca);
-        this.setModelo(modelo);
+        this.modelo = modelo;
         this.setTemperatura(temperatura);
-        this.setLigado(ligado);
+        this.ligado = false;
     }
 
     public String getMarca() {
@@ -19,7 +19,7 @@ public class ArCondicionado {
     }
 
     public void setMarca(String marca) {
-        if (marca.length() < 3) {
+        if (marca.length() >= 3) {
             System.out.println("Marca Invalida");
         } else {
             this.marca = marca;

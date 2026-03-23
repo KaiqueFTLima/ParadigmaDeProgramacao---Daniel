@@ -5,6 +5,7 @@ public class Avaliacao {
     private String nome;
     private ArrayList<Questao> Questoes;
 
+    // Metodo de Composição: Cria o objeto questão internamente
     public void adicionarQuestao(int num, String texto, float peso){
         Questao aux = new Questao(num, texto, peso);
         this.Questoes.add(aux);
